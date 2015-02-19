@@ -36,3 +36,9 @@ java.lang.Override是一個marker annotation類型，它被用作標注方法。
   
 `@Override public String toSting() { return "[" + super.toString() + "]";}`
 // 注意方法名拼寫錯了
+
+@Override是偽代碼,表示重寫(當然不寫也可以),不過還是建議你寫上,有如下好處: 
+1.可以當註釋用,方便閱讀
+2.編譯器可以給你驗證@Override下面的方法名是否是你父類中所有的,如果沒有則報錯
+比如你如果沒寫@Override而你下面的方法名又寫錯了,這時你的編譯器是可以通過的(它以為這個方法是你的
+子類中自己增加的方法) 謝了，很清楚 
