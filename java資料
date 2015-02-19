@@ -1,17 +1,19 @@
 [Java SE 6 技術手冊](https://github.com/JustinSDK/JavaSE6Tutorial)  
-林信良先生的書，寫得很清楚，值得一看，在Google play上也可以買到電子書。
+林信良先生的書，寫得很清楚，值得一看，在Google play上也可以買到電子書。  
+  
+  
 JAVA中 @Override 的作用
 
 如果想重寫父類的方法，比如toString()方法的話，在方法前面加上@Override 系統可以幫你檢查方法的正確性。  
 ```java
-@Override
+@Overrid
 public String toString(){...}\\這是正確的
 ```
 一旦寫錯 寫成這样
 ```java
 @Override
 public String tostring(){...}\\這個是typo
-```
+
 編譯器可以檢測出這種寫法是錯誤的 這樣能保證你的確重寫的方法正確  
 而如果不加@Override  
 public String tostring(){...}這样編譯器是不會報錯的 它只會認为這是你自己新加的一個方法而已
