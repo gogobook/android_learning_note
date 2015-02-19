@@ -34,4 +34,4 @@ java.lang.Override是一個marker annotation類型，它被用作標注方法。
 下面的代碼是一個使用@Override修飾一個企圖重載父類的toString方法，而又存在拼寫錯誤的sample：  
 清單1：  
   
-`@Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}`
+'@Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}'
