@@ -9,14 +9,14 @@ JAVA中 @Override 的作用
 @Overrid
 public String toString(){...}\\這是正確的
 ```
-一旦寫錯 寫成這样
+一旦寫錯 寫成這樣
 ```java
 @Override
 public String tostring(){...}\\這個是typo
-
+```
 編譯器可以檢測出這種寫法是錯誤的 這樣能保證你的確重寫的方法正確  
 而如果不加@Override  
-public String tostring(){...}這样編譯器是不會報錯的 它只會認为這是你自己新加的一個方法而已
+public String tostring(){...}這樣編譯器是不會報錯的 它只會認為這是你自己新加的一個方法而已
 
 ------------------------------------------------------------
 
@@ -31,4 +31,3 @@ java.lang.Override是一個marker annotation類型，它被用作標注方法。
 清單1：  
   
 @Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}
-
