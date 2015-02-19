@@ -6,7 +6,7 @@ JAVA中 @Override 的作用
 
 如果想重寫父類的方法，比如toString()方法的話，在方法前面加上@Override 系統可以幫你檢查方法的正確性。   
 
-```
+```java
 @Overrid
 public String toString(){...}\\這是正確的
 ```
@@ -34,4 +34,4 @@ java.lang.Override是一個marker annotation類型，它被用作標注方法。
 下面的代碼是一個使用@Override修飾一個企圖重載父類的toString方法，而又存在拼寫錯誤的sample：  
 清單1：  
   
-@Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}
+`@Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}`
