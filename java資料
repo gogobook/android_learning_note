@@ -1,8 +1,7 @@
 [Java SE 6 技術手冊](https://github.com/JustinSDK/JavaSE6Tutorial)  
 林信良先生的書，寫得很清楚，值得一看，在Google play上也可以買到電子書。  
   
-  
-JAVA中 @Override 的作用
+[JAVA中 @Override 的作用](https://hk.knowledge.yahoo.com/question/question?qid=7013061700120)
 
 如果想重寫父類的方法，比如toString()方法的話，在方法前面加上@Override 系統可以幫你檢查方法的正確性。   
 
