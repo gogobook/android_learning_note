@@ -8,7 +8,7 @@ JAVA中 @Override 的作用
 
 ```java
 @Overrid
-public String toString(){...}\\
+public String toString(){...}
 ```
 
   
@@ -16,7 +16,7 @@ public String toString(){...}\\
   
 ```
 @Override
-public String tostring(){...}\\typo
+public String tostring(){...}//typo
 ```
 編譯器可以檢測出這種寫法是錯誤的 這樣能保證你的確重寫的方法正確  
 而如果不加@Override  
@@ -34,4 +34,5 @@ java.lang.Override是一個marker annotation類型，它被用作標注方法。
 下面的代碼是一個使用@Override修飾一個企圖重載父類的toString方法，而又存在拼寫錯誤的sample：  
 清單1：  
   
-`@Override public String toSting() { // 注意方法名拼寫錯了 return "[" + super.toString() + "]";}`
+`@Override public String toSting() { return "[" + super.toString() + "]";}`
+// 注意方法名拼寫錯了
