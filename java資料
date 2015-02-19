@@ -13,10 +13,10 @@ public String toString(){...}\\這是正確的
   
 一旦寫錯 寫成這樣
   
-```
+`
 @Override
 public String tostring(){...}\\這個是typo
-```
+`
 編譯器可以檢測出這種寫法是錯誤的 這樣能保證你的確重寫的方法正確  
 而如果不加@Override  
 public String tostring(){...}這樣編譯器是不會報錯的 它只會認為這是你自己新加的一個方法而已
