@@ -5,11 +5,14 @@
 JAVA中 @Override 的作用
 
 如果想重寫父類的方法，比如toString()方法的話，在方法前面加上@Override 系統可以幫你檢查方法的正確性。  
+  
 ```Java
 @Overrid
 public String toString(){...}\\這是正確的
 ```
+  
 一旦寫錯 寫成這樣
+  
 ```
 @Override
 public String tostring(){...}\\這個是typo
