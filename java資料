@@ -30,8 +30,8 @@ Override：
 java.lang.Override是一個marker annotation類型，它被用作標注方法。它說明了被標注的方法重載了父類的方法，起到了斷言的作用。如果我們使用了這種annotation在一個沒有覆蓋父類方法的方法時，java編譯器將以一個編譯錯誤來警示。
 這個annotaton常常在我們試圖覆蓋父類方法而確又寫錯了方法名時發揮威力。  
   
-使用方法極其簡單：在使用此annotation時只要在被修飾的方法前面加上@Override。  
-下面的代碼是一個使用@Override修飾一個企圖重載父類的toString方法，而又存在拼寫錯誤的sample：  
+使用方法極其簡單：在使用此annotation時只要在**被修飾的方法前面加上@Override**。  
+下面的代碼是一個使用**@Override修飾一個企圖重載父類的toString方法**，而又存在拼寫錯誤的sample：  
 清單1：  
   
 `@Override public String toSting() { return "[" + super.toString() + "]";}`
